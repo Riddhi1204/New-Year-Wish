@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Rakesh ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND EFFECTS -->
+<canvas id="fireworks"></canvas>
+<div class="hearts"></div>
+
+<!-- MUSIC -->
+<button id="playBtn">🎵 Play Music</button>
+<audio id="bgMusic" loop>
+  <source src="melody.mpeg" type="audio/mpeg">
+</audio>
+
+<!-- POPUP 1 -->
+<div class="popup active" id="popup1">
+  <div class="box">
+    <h2>A little surprise for you 🤍</h2>
+    <p>Tap & hold to continue</p>
+    <button id="holdBtn">Hold</button>
+  </div>
+</div>
+
+<!-- POPUP 2 -->
+<div class="popup" id="popup2">
+  <div class="box">
+    <h2>Something is waiting for you…</h2>
+    <p>Move the little distractions aside ✨</p>
+    <button onclick="showGift()">Continue</button>
+  </div>
+</div>
+
+<!-- GOLDEN TICKET -->
+<div class="popup" id="giftPopup">
+  <div class="box">
+    <div class="gift">🎁</div>
+    <h2>Golden Ticket ✨</h2>
+    <p>Unlimited love & kisses ♾️💋</p>
+    <button onclick="enterMainSite()">Claim Ticket</button>
+  </div>
+</div>
+
+<!-- MAIN SITE (PREVIOUS REPO INITIAL PAGE) -->
+<div class="container hidden" id="mainSite">
+
+  <h1>
+    Happy New Year My Man 🧿💌<br>
+    <span id="name"></span>
+  </h1>
+
+  <p>
+    Not just this one,<br>
+    but I wanna spend all the rest New Years of my life with you ♾️💗
+  </p>
+
+  <p>
+    Thank you for always standing by my side.<br>
+    I love you 🐥❤️
+  </p>
+
+  <div id="countdown"></div>
+
+  <div class="slideshow">
+    <img src="photos/pic1.jpeg" class="active">
+    <img src="photos/pic2.jpeg">
+    <img src="photos/pic3.jpeg">
+    <img src="photos/pic4.jpeg">
+    <img src="photos/pic5.jpeg">
+  </div>
+
+  <h2>— Yours, forever Bachwaaaaa ✨</h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
